@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Montserrat Alternates', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    align-items: center;
+}
+a {
+    color:white;
+    text-decoration: none; /* Para quitar la subrayado por defecto */
+}
+a:hover {
+    color:#96989A; /* Cambia el color al pasar el mouse */
+}
+
+
+body {
+    font-family: 'Montserrat Alternates', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    position: relative; /* Importante para el posicionamiento absoluto */
+}
+
+
+
+header {
+    background-color: #F89933;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin:.1%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../imagenes/fondo-index-final.jpg);
+    max-width: 100%;
+    align-items: center;
+}
+.icono-instagram .img img{
+    flex: display;
+    padding-top: 5px;
+    margin-left:25%;
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: #F89933;
+}
+
+.Titulo-final {
+    text-align: center;
+    font-size: small;
+}
+
+p {
+    color: #96989A;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Estilos para el nav */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0; /* Alinear a la derecha */
+    
+}
+
+nav > a {
+    color: white;
+    border-radius: 6px;
+    background-color: #F89933;
+    padding: 7px 7px 7px 7px;
+    text-decoration: none;
+    margin-right: 0px; /* Espacio entre botones */
+    font-weight: bold;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    text-decoration-color: #96989A;
+    color: #96989A;
+}
+
+
+.contacto {
+    
+    color: white;
+    background-color: #F89933;
+    padding-top: 35px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Usar 'Montserrat' como fuente */
+    font-size: 16px;
+}
+
+
+
+
+.contacto p {
+    color: white;
+    text-decoration: none; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Usar 'Montserrat' como fuente */
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    background-color:#96989A;
+    color: white;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: small;
+    
+}
+.pie p{
+    padding: 12px 25px;
+
+}
+
+.iconos {
+    display: flex;
+    column-gap: 12px;
+}
+
+.iconos a {
+    color: white;
+    font-size: 24px;
+}
+.contenedor-iconosfooter > a:hover {
+        color:#96989A; /* Cambia el color al pasar el mouse */
+    }
+
+
+
+
